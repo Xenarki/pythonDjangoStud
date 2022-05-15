@@ -1,8 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(request):
-    return render(request, 'main/index.html', { 'values' : '123'})
-
-def about(request):
+def news_home(request):
     return render(request, 'main/about.html')
