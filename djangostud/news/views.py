@@ -3,5 +3,4 @@ import http
 
 # Create your views here.
 def news_home(request):
-    # return render(request, '1')
-    return http.HttpResponse("My first mapped url")
+    return render(request, 'news/news_home.html')
