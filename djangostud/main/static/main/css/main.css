@@ -34,7 +34,7 @@ aside ul{
     list-style: none;
 }
 
-aside ul li{
+aside ul li {
     color: #fff;
     display: clock;
     margin-top: 10px;
@@ -67,4 +67,10 @@ div.alert.alert-warning {
     width: 400px;
     margin: 20px 34%;
     text-align: left;
+}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
 }
