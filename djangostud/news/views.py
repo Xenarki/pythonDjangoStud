@@ -16,7 +16,7 @@ def create(request):
             form.save()
             return redirect('home')
         else:
-            error = 'Форма была не верной'
+            error = form.errors
 
     form = ArticlesForm()
     data = {
